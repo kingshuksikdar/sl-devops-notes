@@ -25,9 +25,9 @@ ApplicationB  => repository AppB
 
 
 Types of VCS:
-  Local (FileSystem)          => SCCS, RCS
-  Centralized (Client-Server) => SVN, TFS, Accurev, Perforce :ks local machine is connected to server
-  Distributed                 => Git, Mercurial, Bazaar
+  Local (FileSystem)          => SCCS, RCS :ks - collaboration is not possible.
+  Centralized (Client-Server) => SVN, TFS, Accurev, Perforce :ks local machine is connected to server :ks(lock, modify, unlock), only one person can collaborate 1 at a time, u have to connected to server
+  Distributed                 => Git, Mercurial, Bazaar:ks local copy created for dev. SErver connection is needed only at cloning. Rest of the time dev. can work isolately
 
 
 
