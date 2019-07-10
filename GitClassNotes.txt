@@ -59,12 +59,12 @@ git version 2.7.4
 Author profile setup:
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
-git config --list
+git config --list :ks -- list the author
 
 ===============================
 Git Commands
 ===============================
-git init => initialize a new git repo
+git init => initialize a new git repo, :ks .git folder -- has folders lie hooks, branches etc.
 git status
 git add . => tracking the files (also known as staging)
 git commit -a -m "your commit message"
