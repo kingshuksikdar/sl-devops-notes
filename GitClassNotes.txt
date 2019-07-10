@@ -44,7 +44,7 @@ Private Repository
 ===============================
 Installation
 ===============================
-Official Page: https://git-scm.com/
+Official Page: https://git-scm.com/  :ks git installation
 
 Installation Commands:
 
