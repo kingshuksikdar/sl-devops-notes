@@ -12,12 +12,13 @@ Agenda
 
 Why SCM/VCS?
   - Versioning
-  - Collaboration
-  - Automated Backups
-  - branching capabilities
-  - Auditing (investigation)
+  - Collaboration  --- :ks - multiple developers can contribute
+  - Automated Backups ---:ks- back up can be taken from different machines if ur ma/c goes down
+  - branching capabilities -- :ks  release management, each branch changes will not affect others
+  - Auditing (investigation) -- :ks -each commit cn be identified,who has done chnages, when changes are done.
 
-Repository?
+note:ks: Now a days devops engineer is using to store pupest manifest files, ansible playbooks etc.
+Repository? -- :ks - its folder which mutiple files / folder
 
 ApplicationA => repository AppA => repo
 ApplicationB  => repository AppB
@@ -25,7 +26,7 @@ ApplicationB  => repository AppB
 
 Types of VCS:
   Local (FileSystem)          => SCCS, RCS
-  Centralized (Client-Server) => SVN, TFS, Accurev, Perforce
+  Centralized (Client-Server) => SVN, TFS, Accurev, Perforce :ks local machine is connected to server
   Distributed                 => Git, Mercurial, Bazaar
 
 
