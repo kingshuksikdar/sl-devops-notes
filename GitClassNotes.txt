@@ -73,8 +73,8 @@ git commit -a -m "your commit message"
 git log
 git clone https://github.com/sk12k/sl-docs-june-2019.git
 git push
-git pull
-git pull <remotename> <branchname>
+git pull   :ks - by default it will take remote which is used during git clone
+git pull <remotename> <branchname>  :ks - origin = remote 
 git pull origin master
 git remote
 git remote -v
