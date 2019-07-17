@@ -91,14 +91,14 @@ Why Branching?
   - Isolated Sandboxed environments for Coding and Development
 
 Commands:
-git branch          => to see all the existing branches
-git branch fa       => Create a new branch with name "fa"
+git branch          => to see all the existing branches  :ks - * denotes current branch name
+git branch fa       => Create a new branch with name "fa" :ks - all thing from mater is copied to fa 
 git checkout fa     => Switch to branch "fa"
 git checkout -b fa  => create a new branch by name "fa" and switch to it.
 
 ## Merge fa branch with Master
 git checkout master
-git merge fa
+git merge fa  : ks - merging changesfrom fa to master
 
 ## Merge Master with FA branch
 git checkout fa
