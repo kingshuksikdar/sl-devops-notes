@@ -46,7 +46,7 @@ Keywords
 - CD => Continuous Delivery / Deployment
   - Delivery => Approvals, Release Cycle [Maintenance Window/Downtime]
   - Deployment => Automated completed till (and beyond) Prod Deployment.
-- Deployment without Downtime
+- Deployment without Downtime :ks- prereq for cont.deployement
 - Deployment Strategies (Rolling/Blue-Green/Canary)
 CI server => Jenkins/bamboo/TeamCity
 - Atlassian
